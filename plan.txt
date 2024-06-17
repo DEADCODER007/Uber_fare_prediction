@@ -1,6 +1,9 @@
 Okay first observations before EDA-
 ->no of passengers of considerable use
 ->coords can help in making distance feature
+      ->two different distances 1)Manhattan 2)Euclidean
 ->its unlikely but key might correspond to person's id and membership or something for frequent travellers may reduce fare
 ->the date time columns could be of use for i)hardcoding holidays and increased rates ii)night/early morning time when rides are expensive
+      ->since holidays are just outliers and diffuclt to tag, label them sunday/workingday(1/0) 
+      ->seperate time intervals into shifts which will be distributed based on kmeans clustering results
 ->unnames column no clue , we will get to know from website or after EDA 
