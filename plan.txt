@@ -6,4 +6,5 @@ Okay first observations before EDA-
 ->the date time columns could be of use for i)hardcoding holidays and increased rates ii)night/early morning time when rides are expensive
 ->since holidays are just outliers and diffuclt to tag, label them sunday/workingday(1/0) 
 ->seperate time intervals into shifts which will be distributed based on kmeans clustering results
+->seperate date and time columns(dates for inflation in price and time for shifts)
 ->unnames column no clue , we will get to know from website or after EDA 
